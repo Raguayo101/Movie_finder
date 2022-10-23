@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Find your flim</h1>
+        <button class="watchlistBtn" id="listBtn">My watchlist</button>
+      </div>
+    </div>
+
+    <main>
+      <section class="searchbar">
+        <input
+          type="text"
+          placeholder="Search for a movie"
+          class="bar"
+          id="search-term"
+        />
+        <button class="btn" type="submit" id="search-btn">Search</button>
+      </section>
+
+      <div id="movie-list">
+        <figure id="noResponse">
+          <img src="./img/Icon.png" alt="movie icon" />
+          <h2>Start Exploring</h2>
+        </figure>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
